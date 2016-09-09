@@ -1,0 +1,210 @@
+.main {
+  background-image: url("./images/200-2.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 2px rgba(0,0,0,.6);
+}
+
+.fourStovesHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  font-size: 25px;
+  height: 70px;
+  font-family: 'Merriweather';
+  background-color: clear;
+  letter-spacing: 2px;
+  text-shadow: 0 0 2px rgba(0,0,0,.6);
+}
+
+.fourStoves {
+  /*background-image: url("./images/photo-1458791682441-c0fae0292e70.jpg");*/
+  height: 700px;
+  background-color: black;
+  /*background-blend-mode: screen;*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-top: 25px;
+  border-left: 5px solid grey;
+  border-right: 5px solid grey;
+  border-top: 2.5px solid grey;
+  border-bottom: 2.5px solid grey;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 2px rgba(0,0,0,.6);
+  /*padding-left: 30px;*/
+  font-family: 'Oswald', sans-serif;
+}
+
+.button {
+  background-color: #9A0001;
+  color: white;
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  border-radius: 8px;
+  font-family: 'Merriweather';
+}
+
+.top-half {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  background-image: url("./images/photo-1458791682441-c0fae0292e70.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: calc(100% / 3);
+  height: 300px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+.right {
+  background-image: url("./images/14-system-main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: ccover;
+  width: calc(100% / 3);
+  height: 300px;
+}
+
+.bottom-half {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-bottom: 60px;
+}
+
+.fourStoves-mountain {
+  /*background-image: url("./images/photo-1458791682441-c0fae0292e70.jpg");*/
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.top-half-mountain {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-mountain {
+  background-image: url("./images/mountainseries.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 633px 400px;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.right-mountain {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.fourStovesHeader-mountain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 100%;
+  font-size: 15px;
+  /*height: 70px;*/
+  font-family: 'Merriweather';
+  background-color: clear;
+  letter-spacing: 2px;
+  /*text-shadow: 0 0 2px rgba(0,0,0,.6);*/
+}
+
+.bottom-half-mountain {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.btext {
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2px;
+  /*text-shadow: 0 0 2px rgba(0,0,0,.6);*/
+  /*padding-left: 30px;*/
+  font-family: 'Merriweather', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+
+#sixStoves {
+  background-image: url("./images/photo-1471070855862-324d571a1857.jpg");
+}
+
+#mountainseries {
+  /*background-image: url("./images/photo-1469826834904-e92950ee5bf9.jpg");*/
+  background-color: #EEEEEE;
+}
+
+#outdoorCookers {
+   background-image: url("./images/photo-1460388052839-a52677720738.jpg");
+ }
+
+#woodStoves {
+  background-color: black;
+    /*background-image: url("./images/photo-1460388052839-a52677720738.jpg");*/
+}
